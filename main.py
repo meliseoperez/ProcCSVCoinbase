@@ -1,6 +1,6 @@
-from controllers.main_controller import MainCOntroller
+from controllers.main_controller import MainController
 
 if __name__ == "__main__":
-    app = MainCOntroller()
+    app = MainController()
     app.run()
     
