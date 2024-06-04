@@ -59,7 +59,10 @@ class MainView:
     def load_file(self):
         # Abro un cuadro de diálogo para seleccionar un archivo, filtrando solo archivos CSV. la ruta del
         # archivo se almacena en 'file_path'
-        file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
+        #file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
+
+        file_path ="/home/marcelo/Descargas/history.csv"
+
         # Verifico si se ha seleccionado un archivo
         if file_path:
             # Inicio un bloque para manejar posibles errores
